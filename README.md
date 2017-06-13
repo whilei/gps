@@ -12,6 +12,8 @@
 
 ---
 
+### gps has moved into [dep](https://github.com/golang/dep) - this instance is no longer maintained.
+
 `gps` is the Go Packaging Solver. It is an engine for tackling dependency
 management problems in Go. It is trivial - [about 35 lines of
 code](https://github.com/sdboyer/gps/blob/master/example.go) - to replicate the
