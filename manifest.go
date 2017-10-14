@@ -39,7 +39,7 @@ type RootManifest interface {
 	// them can harm the ecosystem as a whole.
 	Overrides() ProjectConstraints
 
-	// IngoredPackages returns a set of import paths to ignore. These import
+	// IgnoredPackages returns a set of import paths to ignore. These import
 	// paths can be within the root project, or part of other projects. Ignoring
 	// a package means that both it and its (unique) imports will be disregarded
 	// by all relevant solver operations.
